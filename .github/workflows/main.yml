@@ -50,6 +50,7 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=noesis-devops_python-botnet
+            -Dsonar.organization=noesis-devops
             -Dsonar.sources=python
             -Dsonar.host.url=https://sonarcloud.io
         env:
